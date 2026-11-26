@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.RecipeManagementApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/ballet_pink</item>
+        <item name="colorPrimaryVariant">@color/ballet_pink_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="titleTextColor">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/ballet_pink</item>
+        <item name="colorSecondaryVariant">@color/ballet_pink_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize ActionBar title text color -->
+        <item name="actionBarTheme">@style/Theme.RecipeManagementApp.ActionBar</item>
+    </style>
+
+    <style name="Theme.RecipeManagementApp.ActionBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="titleTextColor">@color/white</item>
+    </style>
+</resources>
